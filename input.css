@@ -47,12 +47,13 @@ body{
 }
 
 .open{
-    transform: rotate(90deg);
-    transform: translateY(0px);
+    transform: rotate(40deg);
+    transform: scale(1.5);
 }
 
 .open .hamburger-top{
     transform: rotate(45deg) translateY(6px) translate(6px) ;
+    height: 1px;
 }
 
 
@@ -62,6 +63,7 @@ body{
 
 .open .hamburger-bottom{
     transform: rotate(-45deg) translateY(6px)  translate(-6px) ;
+     height: 1px;
 }
 
 
